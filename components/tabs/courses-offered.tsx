@@ -12,7 +12,7 @@ const undergraduateCourses = [
   {
     id: "cs101",
     code: "CS101",
-    title: "Introduction to Computer Science",
+    title: "Bsc Computer Science",
     credits: 3,
     description:
       "An introduction to the basic concepts of computer science, including algorithms, programming, and computer organization.",

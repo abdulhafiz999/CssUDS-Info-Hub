@@ -58,7 +58,7 @@ export default function AboutSection() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent" />
         <div className="absolute bottom-4 left-4 right-4">
-          <h1 className="text-2xl md:text-3xl font-bold text-white drop-shadow-md">About Our Department</h1>
+          <h1 className="text-2xl md:text-3xl font-bold text-blue drop-shadow-md">About Our Department</h1>
         </div>
       </div>
 

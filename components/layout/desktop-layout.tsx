@@ -126,7 +126,7 @@ export default function DesktopLayout({ children, activeTab, onNavigate }: Deskt
             )}
           </nav>
 
-          {!isSidebarCollapsed && (
+          {/* {!isSidebarCollapsed && (
             <>
               <div className="mt-6 px-3">
                 <div className="text-xs font-semibold text-muted-foreground uppercase tracking-wider">Resources</div>
@@ -173,7 +173,7 @@ export default function DesktopLayout({ children, activeTab, onNavigate }: Deskt
                 </Button>
               </div>
             </>
-          )}
+          )} */}
         </div>
 
         {user && !isSidebarCollapsed && (

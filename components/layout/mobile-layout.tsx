@@ -125,7 +125,7 @@ export default function MobileLayout({ children, activeTab, onNavigate }: Mobile
                 )}
               >
                 <Users className="h-5 w-5" />
-                <span className="text-xs">Faculty</span>
+                <span className="text-xs">Department</span>
               </TabsTrigger>
               <TabsTrigger
                 value="news"

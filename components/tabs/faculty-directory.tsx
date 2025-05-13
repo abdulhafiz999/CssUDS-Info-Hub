@@ -13,15 +13,15 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } f
 const facultyData = [
   {
     id: 1,
-    name: "Prof Barik Alhassan",
+    name: "PROF ALHASSAN ABDUL-BARIK",
     position: "Department HOD",
     specialization: "Artificial Intelligence",
-    email: "abdulbasit16gmail.com",
+    email: "barikalhassan@gmail.com",
     phone: "0208830950",
-    office: "Silver Jublee, Office N0 14",
-    bio: "Dr. Johnson has been with the department since 2005. Her research focuses on machine learning algorithms and their applications in healthcare. She has published over 50 papers in top-tier conferences and journals.",
+    office: "ICT block office NO 13",
+    bio: "Prof Barik Alhassan",
     courses: ["CS510", "CS520"],
-    image: "/placeholder.svg?height=200&width=200",
+    image: "/hod.jpg?height=200&width=200",
   },
   {
     id: 2,
@@ -49,10 +49,10 @@ const facultyData = [
   },
   {
     id: 4,
-    name: "Dr. Abdul Hafiz",
-    position: "Professor",
-    specialization: "Web Development",
-    email: "abdulhafiz99888@gmail.com",
+    name: "Mr Abdul-Wakil Yakubu Iddrisu",
+    position: "Assistant Lecturer",
+    specialization: "Networking",
+    email: "abdul-Wakilnyaba@gmail.com",
     phone: "(123) 456-7893",
     office: "Science Building, Room 320",
     bio: "Dr. Wilson is an expert in database management systems and data mining. He has authored three textbooks on database design and has extensive industry experience.",
@@ -87,11 +87,11 @@ export default function FacultyDirectory() {
   return (
     <div className="pb-16">
       <div className="p-4 sticky top-0 bg-background z-10 border-b">
-        <h1 className="text-xl font-bold mb-3">Department Stuff</h1>
+        <h1 className="text-xl font-bold mb-3">Department Staff</h1>
         <div className="relative">
           <Search className="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground" />
           <Input
-            placeholder="Search faculty..."
+            placeholder="Search Lecturer..."
             className="pl-8"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
