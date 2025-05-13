@@ -52,7 +52,7 @@ export default function AboutSection() {
     <div className="pb-16 max-w-6xl mx-auto">
       <div className="relative h-48 md:h-64 w-full">
         <img
-          src="/?height=400&width=800"
+          src="/department.jpg?height=400&width=800"
           alt="Department Building"
           className="h-full w-full object-cover"
         />

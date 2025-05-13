@@ -13,19 +13,19 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } f
 const facultyData = [
   {
     id: 1,
-    name: "Dr. Sarah Johnson",
-    position: "Department Chair",
+    name: "Prof Barik Alhassan",
+    position: "Department HOD",
     specialization: "Artificial Intelligence",
-    email: "sjohnson@university.edu",
-    phone: "(123) 456-7890",
-    office: "Science Building, Room 305",
+    email: "abdulbasit16gmail.com",
+    phone: "0208830950",
+    office: "Silver Jublee, Office N0 14",
     bio: "Dr. Johnson has been with the department since 2005. Her research focuses on machine learning algorithms and their applications in healthcare. She has published over 50 papers in top-tier conferences and journals.",
     courses: ["CS510", "CS520"],
     image: "/placeholder.svg?height=200&width=200",
   },
   {
     id: 2,
-    name: "Prof. Michael Chen",
+    name: "Dr Tandoh Lawrence",
     position: "Associate Professor",
     specialization: "Computer Networks",
     email: "mchen@university.edu",
@@ -37,10 +37,10 @@ const facultyData = [
   },
   {
     id: 3,
-    name: "Dr. Emily Rodriguez",
-    position: "Assistant Professor",
+    name: "Mr Francis Saaditoh",
+    position: "Lecturer",
     specialization: "Human-Computer Interaction",
-    email: "erodriguez@university.edu",
+    email: "francissaaditoh@gmail.com",
     phone: "(123) 456-7892",
     office: "Science Building, Room 315",
     bio: "Dr. Rodriguez joined the department in 2018. Her research focuses on designing accessible interfaces and studying user behavior in virtual environments.",
@@ -49,10 +49,10 @@ const facultyData = [
   },
   {
     id: 4,
-    name: "Dr. James Wilson",
+    name: "Dr. Abdul Hafiz",
     position: "Professor",
-    specialization: "Database Systems",
-    email: "jwilson@university.edu",
+    specialization: "Web Development",
+    email: "abdulhafiz99888@gmail.com",
     phone: "(123) 456-7893",
     office: "Science Building, Room 320",
     bio: "Dr. Wilson is an expert in database management systems and data mining. He has authored three textbooks on database design and has extensive industry experience.",
@@ -87,7 +87,7 @@ export default function FacultyDirectory() {
   return (
     <div className="pb-16">
       <div className="p-4 sticky top-0 bg-background z-10 border-b">
-        <h1 className="text-xl font-bold mb-3">Faculty Directory</h1>
+        <h1 className="text-xl font-bold mb-3">Department Stuff</h1>
         <div className="relative">
           <Search className="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground" />
           <Input

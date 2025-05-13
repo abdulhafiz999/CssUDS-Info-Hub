@@ -89,7 +89,7 @@ export default function DepartmentProfile() {
           <address className="not-italic text-muted-foreground">
             <p>Department of Computer Science</p>
             <p>ICT block top floor</p>
-            <p>Email: cs@university.edu</p>
+            <p><a href="cssudsnyc@gmail.com">cssudsnyc@gmail.com</a></p>
             <p>Phone: (123) 456-7890</p>
           </address>
         </section>
