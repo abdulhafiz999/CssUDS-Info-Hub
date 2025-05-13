@@ -8,7 +8,7 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } f
 const galleryImages = [
   {
     id: 1,
-    src: "/pic2.jpg?height=400&width=600",
+    src: "/department.jpg?height=400&width=600",
     alt: "Department Building",
     description: "Some Students in the computer Science Department",
   },
@@ -26,21 +26,21 @@ const galleryImages = [
   },
   {
     id: 4,
-    src: "/pic5.jpeg?height=400&width=600",
-    alt: "Department Meeting",
-    description: "Department members discussing curriculum improvements",
+    src: "/football.jpg?height=400&width=600",
+    alt: "Inter Level Football Match",
+    description: "An inter-level football match between students of the department",
   },
   {
     id: 5,
-    src: "/pic3.jpeg?height=400&width=600",
+    src: "/graduation.jpg?height=400&width=600",
     alt: "Graduation Ceremony",
     description: "Computer Science graduates at the 2022 commencement ceremony",
   },
   {
     id: 6,
-    src: "/pic6.jpeg?height=400&width=600",
-    alt: "Research Presentation",
-    description: "Graduate students presenting their research findings",
+    src: "/111.jpg?height=400&width=600",
+    alt: "open Forum",
+    description: "An open forum with students and faculty members discussing important issues",
   },
 ]
 

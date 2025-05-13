@@ -12,33 +12,33 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } f
 const newsData = [
   {
     id: 1,
-    title: "New AI Research Lab Opening",
+    title: "End of Semester Exams Begin Monday",
     date: "2023-05-15",
-    summary: "The department is proud to announce the opening of our new AI Research Laboratory.",
+    summary: "End of semester exams are scheduled to begin this coming Monday. Students are advised to prepare accordingly.",
     content:
-      "The Department of Computer Science is excited to announce the opening of our new Artificial Intelligence Research Laboratory. The lab will focus on cutting-edge research in machine learning, computer vision, and natural language processing. The lab is equipped with state-of-the-art computing resources, including a cluster of GPUs for deep learning research. Faculty and graduate students interested in using the lab facilities should contact Dr. Sarah Johnson for more information.",
-    category: "Research",
-    image: "/placeholder.svg?height=300&width=600",
+      "The Department of Computer Science wishes to remind all students that end of semester examinations will commence on Monday, May 20, 2025. Students are expected to check the official exam timetable posted on the departmental notice board and online portal. All are advised to adhere strictly to exam rules and come with their valid student ID cards. Best of luck to everyone!",
+    category: "Academic",
+    image: "/exams.png?height=300&width=600",
   },
   {
     id: 2,
-    title: "Guest Lecture: Ethical Implications of AI",
-    date: "2023-05-20",
-    summary: "Join us for a special guest lecture on the ethical implications of artificial intelligence.",
+    title: "Web Development Training Program Announced",
+    date: "2025-06-03",
+    summary: "A hands-on web development training program has been scheduled for students eager to build real-world applications.",
     content:
-      "The Department of Computer Science is pleased to host Dr. Maria Rodriguez from Stanford University for a special guest lecture on 'The Ethical Implications of Artificial Intelligence in Society.' The lecture will cover topics such as algorithmic bias, privacy concerns, and the social impact of AI technologies. The event will take place on May 20, 2023, at 3:00 PM in the Science Building Auditorium. All students and faculty are encouraged to attend. A Q&A session will follow the lecture.",
-    category: "Event",
-    image: "/placeholder.svg?height=300&width=600",
+      "The Department of Computer Science is excited to announce a Web Development Training Program starting on June 3, 2025. This 3-week hands-on training will cover HTML, CSS, JavaScript, Git, and building responsive web apps. No prior experience is needed—ideal for beginners and intermediate learners. Sessions will be held in the Computer Lab every Tuesday and Thursday from 4:00 PM to 6:30 PM. Certificates and internship opportunities will be offered to top-performing participants. Registration is open on the department's portal.",
+    category: "Training",
+    image: "/webdev.jpg?height=300&width=600", // Replace with actual image path
   },
   {
-    id: 3,
-    title: "Fall 2023 Course Registration Now Open",
-    date: "2023-04-10",
-    summary: "Registration for Fall 2023 courses is now open for all computer science students.",
-    content:
-      "Registration for Fall 2023 courses is now open for all computer science students. Please log in to the student portal to view available courses and register. Priority registration is available for seniors and graduate students until April 20. All other students can register starting April 21. The department is offering several new courses this semester, including CS450: Cloud Computing and CS560: Deep Learning. Please consult with your academic advisor if you have any questions about course selection or degree requirements.",
-    category: "Academic",
-    image: null,
+    id: 7,
+  title: "GitHub Training Series for All CS Students",
+  date: "2025-05-15",
+  summary: "The department is organizing a hands-on GitHub training series for students at all levels.",
+  content:
+    "To enhance students' practical skills in version control and collaboration, the Department of Computer Science is launching a GitHub Training Series starting May 15, 2025. The sessions will cover git basics, collaboration workflows, and working on open-source projects. Interested students are required to register via the department portal. Certificates will be awarded after successful completion.",
+  category: "Training",
+  image: "/github.jpeg?height=300&width=600", // Replace with actual image path
   },
   {
     id: 4,
@@ -48,17 +48,17 @@ const newsData = [
     content:
       "The Department of Computer Science invites undergraduate students to participate in the annual Undergraduate Research Symposium. This is an excellent opportunity to showcase your research projects and receive feedback from faculty and peers. The symposium will take place on June 5, 2023, from 10:00 AM to 4:00 PM in the Science Building. Students interested in presenting should submit an abstract by May 15. Prizes will be awarded for the best presentations in various categories. For more information, please contact the undergraduate program coordinator.",
     category: "Event",
-    image: "/placeholder.svg?height=300&width=600",
+    image: "/research.jpg?height=300&width=600",
   },
   {
     id: 5,
-    title: "New Faculty Member Joins Department",
-    date: "2023-03-01",
-    summary: "The department welcomes Dr. Alex Kim, an expert in cybersecurity.",
+    title: "Open Forum with Department Executives",
+    date: "2025-05-13",
+    summary: "An open forum will be held to discuss lecture quality, portal issues, and final year project ideas.",
     content:
-      "The Department of Computer Science is pleased to welcome Dr. Alex Kim to our faculty. Dr. Kim joins us from MIT, where he completed his postdoctoral research in cybersecurity and privacy-preserving computation. He will be teaching CS340: Introduction to Cybersecurity and CS540: Advanced Network Security starting in the Fall 2023 semester. Dr. Kim's research focuses on developing secure systems for critical infrastructure and exploring new methods for privacy-preserving data analysis. Students interested in these areas are encouraged to reach out to Dr. Kim to discuss research opportunities.",
+      "The Department of Computer Science invites all students to an Open Forum on May 28, 2025, at 1:00 PM in the ICT Conference Room. This interactive session will cover several key issues raised by students, including lecture delivery challenges, unresolved portal errors, and ideas for final year project work. Department executives and faculty members will be present to respond to concerns, gather feedback, and provide support. Your voice matters—don’t miss this opportunity to shape the future of the department.",
     category: "Department",
-    image: "/placeholder.svg?height=300&width=600",
+    image: "/open.jpg?height=300&width=600",
   },
 ]
 

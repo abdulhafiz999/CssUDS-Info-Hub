@@ -6,7 +6,7 @@ export default function DepartmentProfile() {
   return (
     <div className="pb-16 max-w-6xl mx-auto">
       <div className="relative h-48 md:h-64 w-full">
-        <Image src="/pic1.png?height=400&width=800" alt="Department Building" fill className="object-cover" />
+        <Image src="/css.jpg?height=400&width=800" alt="Department Building" fill className="object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent" />
         <div className="absolute bottom-4 left-4 right-4">
           <h1 className="text-2xl md:text-3xl font-bold text-blue drop-shadow-md">Department of Computer Science</h1>
