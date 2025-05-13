@@ -71,6 +71,18 @@ const facultyData = [
     courses: ["CS340", "CS540"],
     image: "/placeholder.svg?height=200&width=200",
   },
+  {
+    id: 5,
+    name: "Mr Baako Alhassan Mohammed",
+    position: "Assistant Lecturer",
+    specialization: "Software Development",
+    email: "tandohlawrence@gmail.com",
+    phone: "(123) 456-7894",
+    office: "Science Building, Room 325",
+    bio: "Dr. Tandoh specializes in programming languages and software engineering. He has worked on several open-source projects and is a contributor to the Python community.",
+    courses: ["CS340", "CS540"],
+    image: "/baako.jpeg?height=200&width=200",
+  },
 ]
 
 export default function FacultyDirectory() {

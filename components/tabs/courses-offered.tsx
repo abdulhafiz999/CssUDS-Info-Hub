@@ -10,99 +10,66 @@ import { Badge } from "@/components/ui/badge"
 // Sample course data
 const undergraduateCourses = [
   {
-    id: "cs101",
-    code: "CS101",
+    id: "CS101",
+    code: "",
     title: "Bsc Computer Science",
-    credits: 3,
     description:
       "An introduction to the basic concepts of computer science, including algorithms, programming, and computer organization.",
     prerequisites: [],
-    semester: "Fall",
+    semester: "",
   },
   {
-    id: "cs201",
-    code: "CS201",
-    title: "Data Structures",
+    id: "CS201",
+    code: "",
+    title: "Diploma Computer Science",
     credits: 4,
     description:
       "Study of data structures and algorithms fundamental to computer science; abstract data-type concepts; stacks, queues, linked lists, trees, and graphs.",
-    prerequisites: ["CS101"],
-    semester: "Spring",
+    prerequisites: [""],
+    semester: "",
   },
-  {
-    id: "cs301",
-    code: "CS301",
-    title: "Algorithms",
-    credits: 3,
-    description:
-      "Design and analysis of algorithms. Algorithm design techniques, including divide-and-conquer, greedy algorithms, and dynamic programming.",
-    prerequisites: ["CS201"],
-    semester: "Fall",
-  },
-  {
-    id: "cs310",
-    code: "CS310",
-    title: "Database Systems",
-    credits: 3,
-    description:
-      "Introduction to database systems concepts. Database design and normalization. Database models: relational, hierarchical, and network.",
-    prerequisites: ["CS201"],
-    semester: "Spring",
-  },
-  {
-    id: "cs330",
-    code: "CS330",
-    title: "Computer Networks",
-    credits: 3,
-    description:
-      "Introduction to computer networks and network protocols. Topics include network architectures, protocols, and routing algorithms.",
-    prerequisites: ["CS201"],
-    semester: "Fall",
-  },
+   
 ]
 
 const graduateCourses = [
   {
-    id: "cs501",
-    code: "CS501",
-    title: "Advanced Algorithms",
-    credits: 3,
-    description:
-      "Advanced techniques for designing and analyzing algorithms, including amortized analysis, randomized algorithms, and approximation algorithms.",
-    prerequisites: ["CS301"],
-    semester: "Fall",
+    "id": "CS101",
+    "code": "",
+    "title": "Msc Computer Science",
+    "credits": 3,
+    "description": "Focuses on core areas of advanced computer science including algorithm design, system optimization, and research methods tailored for MSc-level students.",
+    "prerequisites": [""],
+    "semester": ""
   },
   {
-    id: "cs510",
-    code: "CS510",
-    title: "Machine Learning",
-    credits: 3,
-    description:
-      "Introduction to machine learning concepts and algorithms. Topics include supervised learning, unsupervised learning, and reinforcement learning.",
-    prerequisites: ["CS301"],
-    semester: "Spring",
+    "id": "cs510",
+    "code": "",
+    "title": "PGD Computer Science",
+    "credits": 3,
+    "description": "Covers foundational computer science topics for postgraduate diploma students, such as programming, data structures, databases, and software engineering principles.",
+    "prerequisites": [""],
+    "semester": ""
   },
   {
-    id: "cs520",
-    code: "CS520",
-    title: "Artificial Intelligence",
-    credits: 3,
-    description:
-      "Introduction to artificial intelligence concepts and techniques. Topics include search, knowledge representation, and reasoning.",
-    prerequisites: ["CS301"],
-    semester: "Fall",
+    "id": "cs520",
+    "code": "",
+    "title": "MPhil Computer Science",
+    "credits": 3,
+    "description": "Emphasizes research-oriented learning in computer science with topics in computational theory, machine intelligence, and academic writing for scholarly publishing.",
+    "prerequisites": [""],
+    "semester": ""
   },
   {
-    id: "cs530",
-    code: "CS530",
-    title: "Computer Vision",
-    credits: 3,
-    description:
-      "Introduction to computer vision concepts and techniques. Topics include image processing, feature extraction, and object recognition.",
-    prerequisites: ["CS510"],
-    semester: "Spring",
-  },
+    "id": "cs530",
+    "code": "",
+    "title": "PhD Computer Science",
+    "credits": 3,
+    "description": "Designed for doctoral candidates, this course explores cutting-edge areas in computer science, including deep research methodologies, innovation in AI, and dissertation development.",
+    "prerequisites": [""],
+    "semester": ""
+  }
 ]
+
 
 export default function CoursesOffered() {
   const [searchQuery, setSearchQuery] = useState("")
@@ -138,8 +105,8 @@ export default function CoursesOffered() {
       <Tabs value={courseLevel} onValueChange={setCourseLevel} className="w-full">
         <div className="px-4">
           <TabsList className="grid w-full grid-cols-2">
-            <TabsTrigger value="undergraduate">Undergraduate</TabsTrigger>
-            <TabsTrigger value="graduate">Graduate</TabsTrigger>
+            <TabsTrigger value="undergraduate">UNDERGRADUATE</TabsTrigger>
+            <TabsTrigger value="graduate">POSTGRADUATE</TabsTrigger>
           </TabsList>
         </div>
 
@@ -152,8 +119,8 @@ export default function CoursesOffered() {
                     <AccordionTrigger className="hover:no-underline">
                       <div className="flex flex-col items-start text-left">
                         <div className="flex items-center gap-2">
-                          <span className="font-mono text-sm">{course.code}</span>
-                          <Badge variant="outline">{course.credits} Credits</Badge>
+                          <span className="font-mono text-sm">.</span>
+                          <Badge variant="outline"></Badge>
                         </div>
                         <span className="font-medium">{course.title}</span>
                       </div>
@@ -165,7 +132,7 @@ export default function CoursesOffered() {
                           <Badge variant="secondary">{course.semester}</Badge>
                           {course.prerequisites.length > 0 && (
                             <div className="flex items-center gap-1">
-                              <span className="text-xs text-muted-foreground">Prerequisites:</span>
+                              <span className="text-xs text-muted-foreground"></span>
                               {course.prerequisites.map((prereq) => (
                                 <Badge key={prereq} variant="outline" className="text-xs">
                                   {prereq}
@@ -194,8 +161,8 @@ export default function CoursesOffered() {
                     <AccordionTrigger className="hover:no-underline">
                       <div className="flex flex-col items-start text-left">
                         <div className="flex items-center gap-2">
-                          <span className="font-mono text-sm">{course.code}</span>
-                          <Badge variant="outline">{course.credits} Credits</Badge>
+                          <span className="font-mono text-sm"></span>
+                          <Badge variant="outline"></Badge>
                         </div>
                         <span className="font-medium">{course.title}</span>
                       </div>
@@ -207,7 +174,7 @@ export default function CoursesOffered() {
                           <Badge variant="secondary">{course.semester}</Badge>
                           {course.prerequisites.length > 0 && (
                             <div className="flex items-center gap-1">
-                              <span className="text-xs text-muted-foreground">Prerequisites:</span>
+                              <span className="text-xs text-muted-foreground">.</span>
                               {course.prerequisites.map((prereq) => (
                                 <Badge key={prereq} variant="outline" className="text-xs">
                                   {prereq}
