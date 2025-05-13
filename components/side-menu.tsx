@@ -1,11 +1,6 @@
 "use client"
 
 import {
-  Calendar,
-  FileDown,
-  HelpCircle,
-  MessageSquare,
-  Search,
   Settings,
   Home,
   BookOpen,
@@ -35,13 +30,14 @@ export default function SideMenu({ onNavigate, activeTab }: SideMenuProps) {
     { id: "about", label: "About", icon: Info },
   ]
 
-  const additionalItems = [
-    { id: "timetable", label: "Timetable", icon: Calendar },
-    { id: "downloads", label: "Downloads", icon: FileDown },
-    { id: "faqs", label: "FAQs", icon: HelpCircle },
-    { id: "feedback", label: "Feedback", icon: MessageSquare },
-    { id: "search", label: "Search", icon: Search },
-  ]
+  // const additionalItems = [
+  //   { id: "timetable", label: "Timetable", icon: Calendar },
+  //   { id: "downloads", label: "Downloads", icon: FileDown },
+  //   { id: "faqs", label: "FAQs", icon: HelpCircle },
+  //   { id: "feedback", label: "Feedback", icon: MessageSquare },
+  //   { id: "search", label: "Search", icon: Search },
+  //   { id: "quiz", label: "CS Quiz", icon: GraduationCap },
+  // ]
 
   return (
     <div className="h-full flex flex-col py-4">
@@ -76,14 +72,14 @@ export default function SideMenu({ onNavigate, activeTab }: SideMenuProps) {
 
       <Separator className="my-4" />
 
-      <div className="space-y-1">
+      {/* <div className="space-y-1">
         {additionalItems.map((item) => (
           <Button key={item.id} variant="ghost" className="w-full justify-start" onClick={() => {}}>
             <item.icon className="mr-2 h-4 w-4" />
             <span>{item.label}</span>
           </Button>
         ))}
-      </div>
+      </div> */}
 
       <Separator className="my-4" />
 
