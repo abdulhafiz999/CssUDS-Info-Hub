@@ -250,6 +250,58 @@ html {
   }
 }
 
+.flip-card {
+  perspective: 1000px;
+  height: 200px;
+  transition: transform 0.4s ease-in-out;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s cubic-bezier(0.4, 0.2, 0.2, 1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg) scale(1.02);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: opacity 0.5s ease;
+}
+
+.flip-card-front {
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flip-card-back {
+  background-color: #0066ff;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+}
+
+Optional subtle zoom-out when mouse leaves
+.flip-card:not(:hover) .flip-card-inner {
+  transform: rotateY(0deg) scale(1);
+}
 #email{
   color: #0066ff;
 }

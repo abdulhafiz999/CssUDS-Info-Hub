@@ -94,7 +94,7 @@ export default function CoursesOffered() {
         <div className="relative">
           <Search className="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground" />
           <Input
-            placeholder="Search courses..."
+            placeholder="Search programmes..."
             className="pl-8"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
@@ -146,7 +146,7 @@ export default function CoursesOffered() {
                   </AccordionItem>
                 ))
               ) : (
-                <p className="text-center py-8 text-muted-foreground">No courses found matching your search.</p>
+                <p className="text-center py-8 text-muted-foreground">No programmes found matching your search found matching your search.</p>
               )}
             </Accordion>
           </div>

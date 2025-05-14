@@ -90,7 +90,7 @@ export default function DepartmentProfile() {
             <p>Department of Computer Science</p>
             <p id="map"><a href="https://www.google.com/maps/place/Lecturers'+Office/@9.4138777,-0.9853194,269m/data=!3m1!1e3!4m6!3m5!1s0xfd411a2f1ce3269:0x29ff5e052408ca51!8m2!3d9.4135956!4d-0.9861927!16s%2Fg%2F11q9s5_t74?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoASAFQAw%3D%3D">ICT block top floor</a></p>
             <p id="email"><a href="cssudsnyc@gmail.com">cssudsnyc@gmail.com</a></p>
-            <p>Phone: +233(0) 372099482</p>
+            <p>Phone: +233(0) 37209948</p>
           </address>
         </section>
       </div>
