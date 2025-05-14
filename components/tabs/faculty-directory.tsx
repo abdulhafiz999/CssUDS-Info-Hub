@@ -57,7 +57,7 @@ const facultyData = [
     office: "Science Building, Room 325",
     bio: "Dr. Tandoh specializes in programming languages and software engineering. He has worked on several open-source projects and is a contributor to the Python community.",
     courses: ["CS340", "CS540"],
-    image: "/placeholder.svg?height=200&width=200",
+    image: "/tando.jpg?height=200&width=200",
   },
   {
     id: 5,
