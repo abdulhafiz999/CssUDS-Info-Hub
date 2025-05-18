@@ -10,7 +10,7 @@ const galleryImages = [
     id: 1,
     src: "/department.jpg?height=400&width=600",
     alt: "Department Building",
-    description: "Some Students in the computer Science Department",
+    description: "Department of Computer Science Building",
   },
   {
     id: 2,
