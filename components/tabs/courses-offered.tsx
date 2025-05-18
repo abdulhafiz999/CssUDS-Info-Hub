@@ -71,7 +71,7 @@ const graduateCourses = [
 ]
 
 
-export default function CoursesOffered() {
+export default function ProgramsOffered() {
   const [searchQuery, setSearchQuery] = useState("")
   const [courseLevel, setCourseLevel] = useState("undergraduate")
 

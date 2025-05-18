@@ -6,7 +6,7 @@ import { useToast } from "@/hooks/use-toast"
 import MobileLayout from "@/components/layout/mobile-layout"
 import DesktopLayout from "@/components/layout/desktop-layout"
 import DepartmentProfile from "@/components/tabs/department-profile"
-import CoursesOffered from "@/components/tabs/courses-offered"
+import ProgramsOffered from "@/components/tabs/courses-offered"
 import FacultyDirectory from "@/components/tabs/faculty-directory"
 import NewsAnnouncements from "@/components/tabs/news-announcements"
 import AboutSection from "@/components/tabs/about-section"
@@ -54,7 +54,7 @@ export default function ResponsiveApp() {
       case "home":
         return <DepartmentProfile />
       case "courses":
-        return <CoursesOffered />
+        return <ProgramsOffered />
       case "faculty":
         return <FacultyDirectory />
       case "news":

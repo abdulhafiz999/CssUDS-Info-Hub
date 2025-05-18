@@ -9,7 +9,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { useToast } from "@/hooks/use-toast"
 
 import DepartmentProfile from "@/components/tabs/department-profile"
-import CoursesOffered from "@/components/tabs/courses-offered"
+import ProgramsOffered from "@/components/tabs/courses-offered"
 import FacultyDirectory from "@/components/tabs/faculty-directory"
 import NewsAnnouncements from "@/components/tabs/news-announcements"
 import AboutSection from "@/components/tabs/about-section"
@@ -96,7 +96,7 @@ export default function MobileApp() {
             <DepartmentProfile />
           </TabsContent>
           <TabsContent value="courses" className="flex-1 overflow-auto p-0 m-0">
-            <CoursesOffered />
+            <ProgramsOffered />
           </TabsContent>
           <TabsContent value="faculty" className="flex-1 overflow-auto p-0 m-0">
             <FacultyDirectory />
