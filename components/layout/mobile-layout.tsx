@@ -115,7 +115,7 @@ export default function MobileLayout({ children, activeTab, onNavigate }: Mobile
                 )}
               >
                 <BookOpen className="h-5 w-5" />
-                <span className="text-xs">Courses</span>
+                <span className="text-xs">Programmes</span>
               </TabsTrigger>
               <TabsTrigger
                 value="faculty"

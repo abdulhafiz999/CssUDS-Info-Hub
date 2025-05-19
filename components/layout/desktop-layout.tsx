@@ -49,7 +49,7 @@ export default function DesktopLayout({ children, activeTab, onNavigate }: Deskt
 
   const menuItems = [
     { id: "home", label: "Home", icon: Home },
-    { id: "courses", label: "Courses", icon: BookOpen },
+    { id: "courses", label: "Pragrammes", icon: BookOpen },
     { id: "faculty", label: "Faculty", icon: Users },
     { id: "news", label: "News & Announcements", icon: Bell },
     { id: "about", label: "About", icon: Info },

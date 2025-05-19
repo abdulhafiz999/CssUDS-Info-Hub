@@ -24,7 +24,7 @@ export default function SideMenu({ onNavigate, activeTab }: SideMenuProps) {
 
   const menuItems = [
     { id: "home", label: "Home", icon: Home },
-    { id: "courses", label: "Courses", icon: BookOpen },
+    { id: "programmes", label: "Programmes", icon: BookOpen },
     { id: "faculty", label: "Faculty", icon: Users },
     { id: "news", label: "News & Announcements", icon: Bell },
     { id: "about", label: "About", icon: Info },

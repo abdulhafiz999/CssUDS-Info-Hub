@@ -90,7 +90,7 @@ export default function ProgramsOffered() {
   return (
     <div className="pb-16">
       <div className="p-4 sticky top-0 bg-background z-10 border-b">
-        <h1 className="text-xl font-bold mb-3">Courses Offered</h1>
+        <h1 className="text-xl font-bold mb-3">Programmes Offered</h1>
         <div className="relative">
           <Search className="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground" />
           <Input
