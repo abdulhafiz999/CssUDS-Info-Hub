@@ -29,7 +29,7 @@ const facultyData = [
     position: "Snr Lecturer",
     specialization: "Software Developing",
     email: "alhassaansalamudeen@gmail.com",
-    phone: "",
+    phone: "+233246019897",
     office: "Science Building, Room 310",
     bio: "Dr Salamudeen is a  Snr lecturer in the Department of Computer Science with a focus on software development and programming languages. He has extensive experience in software engineering and has worked on various projects in the industry.",
     courses: ["CSC330", "CS530"],
