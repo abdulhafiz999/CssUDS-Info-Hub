@@ -87,6 +87,7 @@ body {
 @layer base {
   * {
     @apply border-border;
+    font-family: montserrat
   }
   body {
     @apply bg-background text-foreground;

@@ -76,7 +76,7 @@ export default function AboutSection() {
             <p className="text-muted-foreground">
               The Department of Computer Science was established in 2023 as part of the university's initiative to
               expand its science and technology programs. What began as a small department with just four department
-              members and 90 students has grown into one of the leading computer science departments in the country.
+              Staff and 90 students has grown into one of the leading computer science departments in the country.
             </p>
           </section>
 
@@ -93,7 +93,7 @@ export default function AboutSection() {
               </li>
               <li className="border-l-2 border-primary pl-4 py-1">
                 <h3 className="font-medium">2024</h3>
-                <p className="text-sm text-muted-foreground">The diploma programwas introduced</p>
+                <p className="text-sm text-muted-foreground">The diploma program was introduced</p>
               </li>
               <li className="border-l-2 border-primary pl-4 py-1">
                 <h3 className="font-medium">2025</h3>
