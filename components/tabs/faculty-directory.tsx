@@ -78,7 +78,7 @@ const facultyData = [
     specialization: "Fullstack Software Engineer",
     email: "baakoalhassan@gmail.com",
     phone: "+233246547510",
-    office: "Science Building, Room 325",
+    office: "ICT blcok, top floor office No 12",
     bio: "Mr Baako is a fullstack software engineer with expertise in web development and cloud computing. He has worked on various projects involving React, Node.js, and AWS.",
     courses: ["CSC251", "CSC240"],
     image: "/baako.jpeg?height=200&width=200",
