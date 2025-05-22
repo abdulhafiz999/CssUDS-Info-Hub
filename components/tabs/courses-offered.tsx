@@ -146,7 +146,7 @@ export default function ProgramsOffered() {
                   </AccordionItem>
                 ))
               ) : (
-                <p className="text-center py-8 text-muted-foreground">No programmes found matching your search found matching your search.</p>
+                <p className="text-center py-8 text-muted-foreground">No programmes found matching your search.</p>
               )}
             </Accordion>
           </div>

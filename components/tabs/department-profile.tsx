@@ -35,7 +35,7 @@ export default function DepartmentProfile() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             <Card>
               <CardContent className="p-3 text-center">
-                <h3 className="text-3xl font-bold text-primary">25+</h3>
+                <h3 className="text-3xl font-bold text-primary">20+</h3>
                 <p className="text-xs text-muted-foreground">Department Members</p>
               </CardContent>
             </Card>
