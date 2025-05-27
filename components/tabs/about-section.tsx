@@ -42,6 +42,18 @@ const galleryImages = [
     alt: "open Forum",
     description: "An open forum with students and faculty members discussing important issues",
   },
+  {
+    id: 7,
+    src: "/css-HANDING-over.jpg?height=400&width=600",
+    alt: "CSS Handing Over Ceremony",
+    description: "The Computer Science Society handing over leadership to the new executive team",
+  },
+   {
+    id: 8,
+    src: "/CSS-WIN.jpg?height=400&width=600",
+    alt: "CSS won the inter-departmental football match",
+    description: "The Computer Science Society won the inter-departmental football match",
+   },
 ]
 
 export default function AboutSection() {
