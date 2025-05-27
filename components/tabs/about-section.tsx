@@ -33,19 +33,19 @@ const galleryImages = [
   {
     id: 5,
     src: "/graduation.jpg?height=400&width=600",
-    alt: "Graduation Ceremony",
+    alt: "GRADUATION 20225",
     description: "Computer Science graduates at the 2022 commencement ceremony",
   },
   {
     id: 6,
     src: "/111.jpg?height=400&width=600",
-    alt: "open Forum",
+    alt: "OPEN Forum",
     description: "An open forum with students and faculty members discussing important issues",
   },
   {
     id: 7,
     src: "/css-HANDING-over.jpg?height=400&width=600",
-    alt: "CSS Handing Over Ceremony",
+    alt: "CSS HANDING OVER",
     description: "The Computer Science Society handing over leadership to the new executive team",
   },
    {
