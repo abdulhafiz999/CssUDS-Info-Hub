@@ -61,18 +61,6 @@ const facultyData = [
   },
   {
     id: 5,
-    name: "Mr Abdul-Wakil Yakubu Iddrisu",
-    position: "Assistant Lecturer",
-    specialization: "Networking",
-    email: "abdul-Wakilnyaba@gmail.com",
-    phone: "+233 248137800",
-    office: "ICT block office NO 13 ",
-    bio: "Mr Wakiil is an Assistant Lecturer in the Department of Computer Science with a focus on computer networking and cybersecurity. He has experience in network design and implementation, as well as security protocols.",
-    courses: ["CS310", "CS410"],
-    image: "/wakil.jpg?height=200&width=200",
-  },
-  {
-    id: 6,
     name: "Mr Baako Alhassan Mohammed",
     position: "Assistant Lecturer",
     specialization: "Fullstack Software Engineer",
@@ -82,6 +70,18 @@ const facultyData = [
     bio: "Mr Baako is a fullstack software engineer with expertise in web development and cloud computing. He has worked on various projects involving React, Node.js, and AWS.",
     courses: ["CSC251", "CSC240"],
     image: "/baako.jpeg?height=200&width=200",
+  },
+    {
+    id: 6,
+    name: "Mr Abdul-Wakil Yakubu Iddrisu",
+    position: "Assistant Lecturer",
+    specialization: "Networking",
+    email: "abdul-Wakilnyaba@gmail.com",
+    phone: "+233 248137800",
+    office: "ICT block office NO 13 ",
+    bio: "Mr Wakiil is an Assistant Lecturer in the Department of Computer Science with a focus on computer networking and cybersecurity. He has experience in network design and implementation, as well as security protocols.",
+    courses: ["CS310", "CS410"],
+    image: "/wakil.jpg?height=200&width=200",
   },
 ]
 
