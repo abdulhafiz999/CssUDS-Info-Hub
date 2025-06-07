@@ -50,7 +50,7 @@ const facultyData = [
   {
     id: 4,
     name: "DR TANDOH LAWRENCE",
-    position: "Exam Officer",
+    position: "Exams Officer",
     specialization: "Programming Fundamentals",
     email: "tandohlawrence@gmail.com",
     phone: "(123) 456-7894",
