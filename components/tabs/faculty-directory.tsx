@@ -80,7 +80,7 @@ const facultyData = [
     phone: "+233 248137800",
     office: "ICT block office NO 13 ",
     bio: "Mr Wakiil is an Assistant Lecturer in the Department of Computer Science with a focus on computer networking and cybersecurity. He has experience in network design and implementation, as well as security protocols.",
-    courses: ["CS310", "CSC310"],
+    courses: ["CS310", "CSC306"],
     image: "/wakil.jpg?height=200&width=200",
   },
 ]
