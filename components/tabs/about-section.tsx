@@ -105,7 +105,7 @@ export default function AboutSection() {
               </li>
               <li className="border-l-2 border-primary pl-4 py-1">
                 <h3 className="font-medium">2024</h3>
-                <p className="text-sm text-muted-foreground">The diploma program was introduced</p>
+                <p className="text-sm text-muted-foreground">Diploma in Computer Science was introduced</p>
               </li>
               <li className="border-l-2 border-primary pl-4 py-1">
                 <h3 className="font-medium">2025</h3>
