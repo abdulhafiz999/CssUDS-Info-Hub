@@ -118,7 +118,7 @@ export default function AboutSection() {
           <section>
             <h2 className="text-xl font-semibold mb-2">Our Vision</h2>
             <p className="text-muted-foreground">
-              To be a globally recognized center of excellence in computer science education and research, producing
+              Our Vision be a globally recognized center of excellence in computer science education and research, producing
               graduates who lead technological innovation and contribute to solving society's most pressing challenges.
             </p>
           </section>
